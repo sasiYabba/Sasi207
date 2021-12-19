@@ -27,7 +27,7 @@ logo = """
 \033[93m╚█████╗░███████║╚█████╗░██║
 \033[37m░╚═══██╗██╔══██║░╚═══██╗██║
 \033[94m██████╔╝██║░░██║██████╔╝██║
-\033[94m╚═════╝░╚═╝░░╚═╝╚═════╝░╚═╝    *yt : https://youtube.com/channel/UCuZT4TcMeScSm56hPCK-46w """
+\033[94m╚═════╝░╚═╝░░╚═╝╚═════╝░╚═╝ """
 mbasic_h={"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 free_h={"Host":"free.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":ua,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8","accept-encoding":"gzip, deflate","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"}
 mfb_h={'Host': 'm.facebook.com', 'cache-control': 'max-age=0', 'upgrade-insecure-requests': '1', 'user-agent':ua, 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8', 'accept-encoding': 'gzip, deflate', 'accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
