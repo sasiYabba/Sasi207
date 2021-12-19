@@ -66,7 +66,7 @@ def login():
     os.system('clear')
     print logo
     print('──────────────────────────────────────────')
-    print(\033[37m[1] Login Token')
+    print('\033[37m[1] Login Token')
     print('\033[91m[2] Login Cookies')
     print('\033[42m[3] Token/Cookies')
     print('\033[93m[0] leave')
