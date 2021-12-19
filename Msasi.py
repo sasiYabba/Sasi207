@@ -67,9 +67,9 @@ def login():
     print logo
     print('──────────────────────────────────────────')
     print('\033[37m[1] Login Token')
-    print('[2] Login Cookies')
-    print('[3] Cara Dapat Token/Cookies')
-    print('[0] Keluar')
+    print('\033[91m[2] Login Cookies')
+    print('\033[42m[3] Token/Cookies')
+    print(\033[41m'[0] leave ')
     print('──────────────────────────────────────────')
     lg = raw_input('[?] Input : ')
     if lg == '':
@@ -85,7 +85,7 @@ def login():
                 zedd.close()
                 komen()
         except KeyError:
-                print("[x] Token Salah")
+                print("[x] Token Expired")
                 time.sleep(1.7)
                 login()
         except requests.exceptions.SSLError:
@@ -150,18 +150,18 @@ def menu():
     exit('[x] Koneksi Error')
   os.system("clear")
   print logo
-  print('──────────────────────────────────────────')
+  print('\033[96m──────────────────────────────────────────')
   print('[•] Nama : '+nm)
   print('[•] Your ID : '+id)
   print('[•] Birthday : '+tl)
   print('──────────────────────────────────────────')
-  print('[1] Crack ID Dari Teman')
-  print('[2] Crack ID Dari Publik')
-  print('[3] Crack ID Dari Followers')
-  print('[4] Crack ID Dari Like')
-  print('[5] Lihat Hasil Crack')
-  print('[0] Keluar & Hapus Token/Cookies')
-  print('──────────────────────────────────────────')
+  print('\033[91m[1] Crack ID Dari Teman')
+  print('\033[37m[2] Crack ID Dari Publik')
+  print('\033[42m[3] Crack ID Dari Followers')
+  print('\033[45m[4] Crack ID Dari Like')
+  print('\033[91m[5] Lihat Hasil Crack')
+  print('\033[41m[0] Keluar & Hapus Token/Cookies')
+  print('\033[96m──────────────────────────────────────────')
   mn=raw_input("[?] Input : ")
   if mn=="":
 	print ('[x] Isi Dengan Benar')
