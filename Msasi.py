@@ -221,7 +221,7 @@ def teman():
                 login()
         try:
 		limit = '5000'
-                file = 'rozhak.json'
+                file = 'sasiya.json'
 		print('──────────────────────────────────────────')
 		print('[•] Nama File : '+file)
                 try:
