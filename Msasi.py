@@ -188,7 +188,7 @@ def menu():
     elif hs == '2' or hs == '02':
 	cp()
     else:
-	exit('[x] Isi Dengam
+	exit('[x] Isi Dengam')
  Back')
   elif mn=="0":
     try:
