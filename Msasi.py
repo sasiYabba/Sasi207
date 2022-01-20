@@ -42,7 +42,7 @@ def komen(): # Boleh Di Tanbahin Jangan Di Ganti #
         try:
                 toket=open('login.txt','r').read()
         except IOError:
-                print ('[x] Token Invalid')
+                print ('[x] Token Expires')
                 login()
         web = datetime.datetime.now()
         waktu = web.strftime("%H:%M:%S / %d-%m-%Y ")
@@ -71,11 +71,11 @@ def login():
     print('[3] Token/Cookies')
     print('[0] leave')
     print('──────────────────────────────────────────')
-    lg = raw_input('[?] Input : ')
+    lg = raw_input('[+] Input : ')
     if lg == '':
         os.sys.exit()
     elif lg == '1' or lg == '01':
-        toket = raw_input("[?] Token : ") # Login Token
+        toket = raw_input("[+] Token : ") # Login Token
         try:
                 otw = requests.get('https://graph.facebook.com/me?access_token='+toket)
                 a = json.loads(otw.text)
@@ -127,7 +127,7 @@ def login():
     elif lg == '0' or lg == '00':
         exit()
     else:
-        exit('[x] Isi Dengan Benar')
+        exit('[x] Isi go back')
 ##### MENU #####
 def menu():
   try:
@@ -150,17 +150,17 @@ def menu():
     exit('[x] Koneksi Error')
   os.system("clear")
   print logo
-  print('\033[96m──────────────────────────────────────────')
+  print('\033[96m───=─────=──────=──────=──────=─────=─────=───=───')
   print('[•] Nama : '+nm)
   print('[•] Your ID : '+id)
   print('[•] Birthday : '+tl)
-  print('──────────────────────────────────────────')
+  print('────=────=─────=─────=─────=─────=─────=────=───=──')
   print('\033[91m[1] Crack ID Dari Teman')
   print('\033[37m[2] Crack ID Dari Publik')
   print('\033[42m[3] Crack ID Dari Followers')
   print('\033[45m[4] Crack ID Dari Like')
-  print('\033[91m[5] Lihat Hasil Crack')
-  print('\033[41m[0] Keluar & Hapus Token/Cookies')
+  print('\033[90m[5] Lihat Hasil Crack')
+  print('\033[40m[0] Keluar & Hapus Token/Cookies')
   print('\033[96m──────────────────────────────────────────')
   mn=raw_input("[?] Input : ")
   if mn=="":
@@ -176,8 +176,8 @@ def menu():
     like()
   elif mn=="5":
     print('──────────────────────────────────────────')
-    print('[1] Lihat Hasil Ok')
-    print('[2] Lihat Hasil Cp')
+    print('[1] acoont sacsfull Ok')
+    print('[2] acoont oh no Cp')
     print('[0] Kembali')
     print('──────────────────────────────────────────')
     hs = raw_input('[?] Input : ')
@@ -188,7 +188,8 @@ def menu():
     elif hs == '2' or hs == '02':
 	cp()
     else:
-	exit('[x] Isi Dengan Benar')
+	exit('[x] Isi Dengam
+ Back')
   elif mn=="0":
     try:
       os.remove("login.txt")
